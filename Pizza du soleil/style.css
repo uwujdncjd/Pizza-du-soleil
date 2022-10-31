@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Sigmar+One&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+/* font-family: 'Sigmar One', cursive; */
+body{
+    font-family: sans-serif;
+    background: rgb(249, 249, 191);
+    color: rgb(22, 18, 18);
+}
+h1{
+    font-family: 'Nunito', sans-serif;
+}
+
+main{
+    width: 100%;
+    min-height: 150px;
+    border-radius: 15px;
+    padding: 2px;
+    position: relative;
+}
+
+.ingre{
+    background: whitesmoke;
+    color: black;
+    width: 20%;
+    min-height: 210px;
+    border-radius: 15px;
+    box-shadow: 2px -1px  12px 5px rgba(0, 0, 0, 0.146);
+    padding: 2px;
+    position: absolute;
+    right:  20%;
+}
+
+.resume{
+    background: whitesmoke;
+    color: black;
+    width: 20%;
+    min-height: 210px;
+    border-radius: 15px;
+    box-shadow: 2px -1px  12px 5px rgba(0, 0, 0, 0.146);
+    padding: 2px;
+    position: absolute;
+    left: 20%;
+}
+#ba{
+    font-family: 'Sigmar One', cursive; 
+}
+.prepa{
+    background: whitesmoke;
+    color: black;
+    width: 90%;
+    min-height: 210px;
+    border-radius: 15px;
+    box-shadow: 2px -1px  12px 5px rgba(0, 0, 0, 0.146);
+    padding: 2px;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    right: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
